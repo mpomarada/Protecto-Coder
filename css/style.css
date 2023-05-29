@@ -35,21 +35,6 @@ header{
 form input{
     width: 500px;
 }
-.nav-menu{
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-}
-.nav-menu ul{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-items: right;
-}
-.nav-menu li{
-    padding: 0px 12px;
-}
 .logo img{
     display: flex;
     width: 150px;
@@ -60,12 +45,11 @@ form input{
     width: 400px;
     position: relative;
     left: 10%;
-    top: 10%;
 }
 
-/* body main{
-    height: auto;
-} */
+main{
+    padding: 50px 0px;
+}
 main h2{
     margin-top: 2%;
     margin-left: 10%;
@@ -96,11 +80,6 @@ main p{
     bottom: 300px;
     left: 150%;
 }
-.style-form-crear{
-    position: relative;
-    bottom: 420px;
-    left: 50%;
-}
 .style-form h3{
     margin: 10px 0;
 }
@@ -119,32 +98,10 @@ main p{
 }
 .style-banner img{
     height: 400px;
-    width: 1300px;
-    margin-left: 190px;
-    margin-top: 30px;
-}
-#sobreNosotros{
-    display: grid;
-    grid-template-columns: 12fr;
-    grid-template-rows: 100px 600px 240px;
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer"
-    ;
-    height: 100vh;
-}
-#sobreNosotros header{
-    grid-area: header;
-}
-#sobreNosotros main{
-    grid-area: main;
-}
-#sobreNosotros footer{
-    grid-area: footer;
+    width: auto;
 }
 .tam-img img{
-    width: 150px;
+    width: 165px;
     height: 150px;
 }
 #cajasProductos{
@@ -183,12 +140,14 @@ main p{
     margin: 0;
     padding: 0;
 }
+.color-bg{
+    background-color: hsl(41, 100%, 96%);
+}
 
 footer{
     width: 100%;
     background-color: hsl(41, 100%, 96%);
     padding: 10px;
-    position: absolute;
     bottom: 0;
 }
 footer nav{
