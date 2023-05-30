@@ -33,6 +33,10 @@ header {
   width: 100vw;
 }
 
+.anim-text:hover {
+  font-size: 17px;
+}
+
 .form-control {
   width: 400px !important;
 }
@@ -56,6 +60,7 @@ form input {
 
 main {
   margin-bottom: 15rem;
+  margin-top: 5rem;
 }
 main h2 {
   margin-top: 2%;

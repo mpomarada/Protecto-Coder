@@ -32,6 +32,9 @@ header {
 	background-color: $background-color_1;
 	width: 100vw;
 }
+.anim-text:hover{
+	font-size: 17px;
+}
 .form-control {
 	width: 400px !important;
 }
@@ -55,6 +58,7 @@ form {
 }
 main {
 	margin-bottom: 15rem;
+	margin-top: 5rem;
 	h2 {
 		margin-top: 2%;
 		margin-left: 10%;
