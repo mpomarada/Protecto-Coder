@@ -116,6 +116,7 @@ main {
 	img {
 		height: 400px;
 		width: auto;
+		margin-left: 10%;
 	}
 }
 .tam-img {
@@ -127,6 +128,9 @@ main {
 .style-carousel {
 	width: 165px;
 	height: 150px;
+}
+.style-carouselright {
+	margin-left: 23%;
 }
 #cajasProductos {
 	display: flex;

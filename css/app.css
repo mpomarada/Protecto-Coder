@@ -120,11 +120,21 @@ main p {
 .style-banner img {
   height: 400px;
   width: auto;
+  margin-left: 10%;
 }
 
 .tam-img img {
   width: 165px;
   height: 150px;
+}
+
+.style-carousel {
+  width: 165px;
+  height: 150px;
+}
+
+.style-carouselright {
+  margin-left: 23%;
 }
 
 #cajasProductos {
